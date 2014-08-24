@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="186.0" layoutY="60.0" text="First Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="284.0" layoutY="61.0" />
+      <Label layoutX="187.0" layoutY="97.0" text="Last Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="284.0" layoutY="98.0" />
+      <Label layoutX="168.0" layoutY="135.0" text="Middle Initial">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="284.0" layoutY="136.0" />
+      <Label layoutX="216.0" layoutY="170.0" text="Picture">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="371.0" layoutY="171.0" mnemonicParsing="false" text="Browse..." />
+      <Button layoutX="377.0" layoutY="206.0" mnemonicParsing="false" style="-fx-base: #202020;" text="Finish">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
